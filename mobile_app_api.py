@@ -5,6 +5,16 @@ from pydantic import BaseModel, Field
 
 app = FastAPI()
 
+# Creating new user 
+@app.post('/register')
+def create_user():
+    pass
+
+# User login
+@app.post('/login')
+def user_login():
+    pass
+
 # Upload a file
 @app.post('/upload_file')
 def upload_file():
