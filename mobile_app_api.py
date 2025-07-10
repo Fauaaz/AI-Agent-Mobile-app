@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from typing import List
+from datetime import datetime
 from schemas import (
     UserCreate, UserLogin, FileUpload, Reminder,
     Preference, AIRequest, AIResponse
