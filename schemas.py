@@ -38,7 +38,7 @@ class AILog(BaseModel):
     file_used: Optional[str]
     timestamp: datetime
     
-# ------- App Features ------
+# ------- App Features -------
 class Reminder(BaseModel):
     title: str
     description: Optional[str] = None
